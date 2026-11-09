@@ -29,8 +29,10 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+      - name: Verify Android SDK
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          ls "$ANDROID_HOME/platforms" | tail -5
 
       - name: Prepare release keystore
         if: env.KEYSTORE_BASE64 != ''
@@ -46,13 +48,13 @@ jobs:
           IWAROK_KEY_PASSWORD: ${{ env.KEY_PASSWORD }}
         run: |
           chmod +x gradlew
-          ./gradlew :app:assembleRelease --no-daemon
+          ./gradlew :app:assembleRelease --no-daemon --stacktrace
 
       - name: Build debug APK
         if: env.KEYSTORE_BASE64 == ''
         run: |
           chmod +x gradlew
-          ./gradlew :app:assembleDebug --no-daemon
+          ./gradlew :app:assembleDebug --no-daemon --stacktrace
 
       - name: Collect APK
         run: |
