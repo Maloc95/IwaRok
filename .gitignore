@@ -1,0 +1,36 @@
+# Gradle / build output
+.gradle/
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.iml
+.idea/
+
+# Release artifacts
+/dist/
+/release/
+*.apk
+*.aab
+*.zip
+
+# Signing secrets
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+.env
+
+# Local screenshots / media
+/*.jpg
+/*.jpeg
+/*.png
+/*.webp
+/Screenshot*
+/IMG_*
+
+# OS noise
+.DS_Store
+Thumbs.db

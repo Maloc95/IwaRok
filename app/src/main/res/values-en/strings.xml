@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IwaRok</string>
+    <string name="app_slogan">Immersive Iwara video feed</string>
+    <string name="splash_loading">Restoring session…</string>
+
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">OK</string>
+    <string name="refresh">Refresh</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong</string>
+    <string name="unknown_error">That didn’t work. Please try again later.</string>
+    <string name="go_login">Sign in</string>
+    <string name="cd_brand_logo">IwaRok logo</string>
+    <string name="cd_avatar">Avatar</string>
+
+    <string name="age_gate_title">Welcome to IwaRok</string>
+    <string name="age_gate_card_title">18+ content notice</string>
+    <string name="age_gate_warning">This app may contain adult content and is intended only for users aged 18 or older.</string>
+    <string name="age_gate_desc">By continuing, you confirm that you are at least 18 years old and accept full responsibility for using this app. IwaRok is an unofficial client and is not affiliated with Iwara.</string>
+    <string name="age_gate_confirm">I am 18 or older — continue</string>
+    <string name="age_gate_decline">I am under 18 — exit</string>
+    <string name="age_gate_exit_title">Access unavailable</string>
+    <string name="age_gate_exit_message">This app is only for users aged 18 or older. Thank you for understanding.</string>
+    <string name="age_gate_exit_confirm">Exit app</string>
+    <string name="age_gate_exit_cancel">Back</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="feed_load_failed">Couldn’t load the feed</string>
+    <string name="feed_load_more_failed_retry">Couldn’t load more. Tap to retry.</string>
+    <string name="feed_empty_title">No videos yet</string>
+    <string name="feed_empty_subtitle">Try a different sort or check back later</string>
+    <string name="feed_loading_more">Loading more…</string>
+    <string name="feed_end">No more videos</string>
+
+    <string name="video_play">Play</string>
+    <string name="video_pause">Pause</string>
+    <string name="video_mute">Mute</string>
+    <string name="video_unmute">Unmute</string>
+    <string name="video_muted">Muted</string>
+    <string name="video_sound">Sound</string>
+    <string name="video_share">Share</string>
+    <string name="video_retry_switch">Retry at another quality</string>
+    <string name="views_count">%1$s views</string>
+    <string name="video_quality_badge">Quality %1$s</string>
+    <string name="playback_error_title">Playback failed</string>
+    <string name="playback_error_message">Video playback failed. Check your network and try again.</string>
+    <string name="cd_like">Like</string>
+    <string name="cd_comment">Comment</string>
+    <string name="cd_share">Share</string>
+    <string name="cd_play">Play</string>
+    <string name="cd_pause">Pause</string>
+    <string name="login_required_like">Sign in to like videos</string>
+    <string name="login_required_comment">Sign in to comment</string>
+    <string name="login_required_search">Sign in to search</string>
+
+    <string name="comments_title">Comments</string>
+    <string name="comments_title_count">%1$s comments</string>
+    <string name="comments_empty">No comments yet. Be the first to comment.</string>
+    <string name="comments_loading">Loading comments…</string>
+    <string name="comments_loading_more">Loading more comments…</string>
+    <string name="comments_load_more">Load more comments</string>
+    <string name="comments_load_failed">Couldn’t load more. Tap to retry.</string>
+    <string name="comments_end">No more comments</string>
+    <string name="comments_failed">Couldn’t load comments</string>
+    <string name="comments_guest_banner">Sign in to join the conversation</string>
+    <string name="comments_replies">%1$s replies</string>
+    <string name="comment_unknown_user">Anonymous</string>
+
+    <string name="login_title">Sign in to Iwara</string>
+    <string name="login_subtitle">Sign in to like and comment. Searching and browsing don’t require an account.</string>
+    <string name="login_email_label">Email</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_button">Sign in</string>
+    <string name="login_guest_continue">Continue as guest</string>
+    <string name="login_advanced">Sign in with a token (advanced)</string>
+    <string name="login_token_label">Refresh Token / Access Token</string>
+    <string name="login_token_button">Sign in with token</string>
+    <string name="login_token_hint">Prefer not to enter a password? Paste your Iwara refresh token to sign in.</string>
+    <string name="login_error_email_empty">Enter your email</string>
+    <string name="login_error_password_empty">Enter your password</string>
+    <string name="login_error_token_empty">Paste a token first</string>
+    <string name="login_failed">Sign-in failed</string>
+    <string name="login_hide_password">Hide password</string>
+    <string name="login_show_password">Show password</string>
+    <string name="login_privacy_hint">Your sign-in details stay on this device. IwaRok never uploads your credentials.</string>
+
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search Iwara videos</string>
+    <string name="search_action">Search</string>
+    <string name="search_empty_title">Explore Iwara videos</string>
+    <string name="search_empty_subtitle">Enter a keyword and press Enter to find creators and videos you like</string>
+    <string name="search_no_result">No videos found</string>
+    <string name="search_no_result_subtitle">Try a different keyword</string>
+    <string name="search_footer_hint">Guests can search too. Sign in to like and comment.</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_group_account">Account</string>
+    <string name="settings_group_network">Network &amp; proxy</string>
+    <string name="settings_group_playback">Playback &amp; quality</string>
+    <string name="settings_group_content">Content preferences</string>
+    <string name="settings_group_about">About</string>
+    <string name="settings_group_notices">Notices &amp; disclaimers</string>
+    <string name="settings_sort">Default sort</string>
+    <string name="settings_rating">Content rating</string>
+    <string name="settings_quality">Default video quality</string>
+    <string name="settings_dialog_sort_title">Default sort order</string>
+    <string name="settings_dialog_rating_title">Content rating</string>
+    <string name="settings_dialog_quality_title">Default video quality</string>
+    <string name="settings_quality_hint">Auto starts at 720P and uses 540P when 720P is unavailable. Choose Source or 1080P for a sharper picture; on slower networks, 540P or lower is recommended.</string>
+
+    <string name="settings_proxy_switch">Use a custom proxy</string>
+    <string name="settings_proxy_switch_desc">Iwara can’t be reached directly from mainland China. Enter an HTTP proxy available on this device or your local network, and the API, thumbnails, and videos will all use it. Restart the app after saving.</string>
+    <string name="settings_proxy_host">Proxy host</string>
+    <string name="settings_proxy_host_example">e.g. 127.0.0.1 (this device) or 192.168.1.10</string>
+    <string name="settings_proxy_port">Port</string>
+    <string name="settings_proxy_hint">HTTP proxy. Clash / Mihomo on mobile commonly uses 127.0.0.1:7890. If the proxy runs on a computer, enter that computer’s LAN IP. Restart the app after saving.</string>
+    <string name="settings_proxy_save">Save proxy settings</string>
+    <string name="settings_proxy_saved">Proxy settings saved</string>
+    <string name="settings_proxy_invalid">Enter a valid proxy host and port (1–65535)</string>
+    <string name="settings_proxy_test">Test connection</string>
+    <string name="settings_proxy_testing">Testing proxy connection…</string>
+    <string name="settings_proxy_test_ok">Proxy connected in %1$s</string>
+    <string name="settings_proxy_test_fail">Proxy connection failed: %1$s</string>
+    <string name="settings_proxy_restart_title">Restart required</string>
+    <string name="settings_proxy_restart_message">Proxy settings saved. Restart the app to apply them.</string>
+    <string name="settings_proxy_restart_now">Restart now</string>
+    <string name="settings_proxy_restart_later">Later</string>
+    <string name="settings_logout">Sign out</string>
+    <string name="settings_logout_confirm_title">Sign out</string>
+    <string name="settings_logout_confirm_message">Sign out of your account?</string>
+    <string name="settings_logout_done">Signed out</string>
+    <string name="settings_login_now">Sign in now</string>
+    <string name="settings_guest_title">Guest mode</string>
+    <string name="settings_guest_desc">Sign in to like and comment (searching requires no account)</string>
+    <string name="settings_version_label">Version</string>
+    <string name="settings_open_website">Open Iwara website</string>
+    <string name="settings_clear_cache">Clear image cache</string>
+    <string name="settings_clear_cache_done">Image cache cleared</string>
+    <string name="settings_adult_title">18+ content notice</string>
+    <string name="settings_adult_body">This app may contain adult content and is intended for users aged 18 or older. Minors must not use it.</string>
+    <string name="settings_disclaimer_title">Disclaimer</string>
+    <string name="settings_disclaimer_body">This app is an unofficial Iwara client and is not affiliated with Iwara in any way. All videos, images, and text belong to Iwara and their respective creators. This app only provides a viewing interface and does not store or distribute any content. You need your own network access to www.iwara.tv (such as a proxy or VPN).</string>
+    <string name="settings_unofficial">IwaRok</string>
+    <string name="settings_footer">IwaRok</string>
+
+    <string name="cd_open_profile">View creator profile</string>
+    <string name="cd_open_tag">View tag</string>
+
+    <string name="profile_title">Profile</string>
+    <string name="profile_load_failed">Couldn’t load profile</string>
+    <string name="profile_videos_empty">This user has no public videos yet</string>
+    <string name="profile_tab_videos">Videos</string>
+    <string name="tag_results_title">#%1$s</string>
+    <string name="tag_results_empty">No videos under this tag yet</string>
+    <string name="search_results_title">Results for “%1$s”</string>
+    <string name="search_results_count">%1$s videos</string>
+    <string name="search_clear">Clear search</string>
+    <string name="video_detail_load_failed">Couldn’t load video</string>
+    <string name="grid_load_more">Load more</string>
+
+    <string name="favorites_title">Favorites</string>
+    <string name="favorites_empty">No favorite videos yet</string>
+    <string name="favorites_empty_subtitle">Tap the favorite button beside a video to save it here</string>
+    <string name="favorites_added">Added to favorites</string>
+    <string name="favorites_removed">Removed from favorites</string>
+    <string name="video_favorite">Favorite</string>
+    <string name="video_favorited">Favorited</string>
+    <string name="video_fullscreen">Fullscreen</string>
+    <string name="video_exit_fullscreen">Exit fullscreen</string>
+    <string name="profile_expand">Expand</string>
+    <string name="profile_collapse">Collapse</string>
+
+    <string name="cd_open_drawer">Open menu</string>
+    <string name="fullscreen_watch">Watch fullscreen</string>
+
+    <string name="comments_input_hint">Kind words go a long way</string>
+    <string name="comments_send">Send</string>
+    <string name="comments_send_failed">Couldn’t send comment</string>
+
+    <string name="comments_collapse_replies">Hide replies</string>
+    <string name="comments_expand_more_replies">Show more replies</string>
+    <string name="comments_replies_loading">Loading replies…</string>
+    <string name="comments_replies_failed">Couldn’t load replies. Tap to retry.</string>
+
+    <string name="cd_follow">Follow</string>
+    <string name="cd_unfollow">Unfollow</string>
+    <string name="login_required_follow">Sign in to follow</string>
+
+    <string name="feed_tag_all">All</string>
+    <string name="feed_tag_dance">Dance</string>
+    <string name="feed_tag_mmd">MMD</string>
+    <string name="feed_tag_blender">Blender</string>
+    <string name="feed_tag_koikatsu">Koikatsu</string>
+    <string name="feed_tag_genshin">Genshin Impact</string>
+    <string name="feed_tag_star_rail">Honkai: Star Rail</string>
+    <string name="feed_tag_vtuber">VTuber</string>
+    <string name="feed_tag_hmv">HMV</string>
+    <string name="feed_tag_empty_title">No videos in this category yet</string>
+
+    <string name="tag_channels_manage">Manage channels</string>
+    <string name="tag_channels_add_hint">Enter an Iwara tag slug (e.g. dance) to add a channel</string>
+    <string name="tag_channels_add_placeholder">Enter tag slug</string>
+    <string name="tag_channels_add">Add</string>
+    <string name="tag_channels_duplicate">This channel already exists</string>
+    <string name="tag_channels_invalid">Tag not found or verification failed</string>
+    <string name="tag_channels_empty">No channels yet</string>
+    <string name="tag_channels_restore">Restore defaults</string>
+    <string name="tag_channels_manual_title">Add manually</string>
+    <string name="tag_channels_manual_hint">Enter a tag slug, e.g. dance</string>
+    <string name="tag_channels_manual_add">Add channel manually</string>
+    <string name="tag_channels_manual_empty">Enter a tag slug</string>
+    <string name="tag_channels_manual_duplicate">This channel already exists</string>
+    <string name="tag_channels_manual_invalid">Tag not found or could not be added</string>
+    <string name="tag_channels_done">Done</string>
+    <string name="tag_channels_delete">Delete channel</string>
+
+    <string name="cd_toggle_ai_site">Switch AI site</string>
+    <string name="tag_channels_selected">Selected channels</string>
+    <string name="tag_channels_suggestions">Suggested channels</string>
+    <string name="search_tab_videos">Videos</string>
+    <string name="search_tab_users">Users</string>
+    <string name="search_users_results_title">Users matching “%1$s”</string>
+    <string name="search_users_results_count">%1$s users</string>
+    <string name="search_users_loading">Searching users…</string>
+    <string name="search_users_loading_more">Loading…</string>
+    <string name="search_users_load_more">Load more</string>
+    <string name="search_users_retry">Couldn’t load. Tap to retry.</string>
+    <string name="search_users_end">No more users</string>
+    <string name="search_users_empty_title">No users found</string>
+    <string name="search_users_empty_subtitle">Try another keyword</string>
+    <string name="search_users_failed">User search failed</string>
+    <string name="profile_bio_image">Bio image</string>
+
+    <string name="tag_channels_all">All tags (%1$d)</string>
+    <string name="tag_channels_search_hint">Search tags by id</string>
+    <string name="tag_channels_no_match">No matching tags</string>
+    <string name="tag_channels_catalog_failed">Couldn’t load the tag list</string>
+
+    <string name="settings_group_general">General</string>
+
+    <string name="comments_related">Similar videos</string>
+
+    <string name="gesture_speed_2x">2x speed</string>
+    <string name="gesture_speed_locked">2x locked</string>
+    <string name="gesture_menu_speed">Playback speed</string>
+    <string name="gesture_menu_clean">Clean screen</string>
+    <string name="video_download">Download</string>
+    <string name="download_started">Added to download queue: %1$s</string>
+    <string name="download_failed">Download failed. Try again later.</string>
+    <string name="download_not_ready">The video is still loading, so it can’t be downloaded yet</string>
+
+    <string name="login_welcome_back">WELCOME BACK</string>
+    <string name="comments_tab_related">Similar</string>
+    <string name="comments_related_empty">No similar videos</string>
+    <string name="video_transform_reset">Reset</string>
+
+    <string name="speed_hint_hold_lock">Swipe down and release to lock 2x speed</string>
+    <string name="speed_hint_release_lock">Release to lock 2x speed</string>
+    <string name="speed_hint_hold_unlock">Swipe down and release to unlock 2x speed</string>
+    <string name="speed_hint_release_unlock">Release to unlock 2x speed</string>
+    <string name="speed_locked_toast">Locked. Long-press the edge to return to 1x speed.</string>
+    <string name="login_token_entry">Sign in with token</string>
+
+    <string name="video_private_badge">Private</string>
+    <string name="video_unavailable_badge">Unavailable</string>
+    <string name="speed_unlocked_toast">Unlocked. Back to 1x speed.</string>
+
+    <string name="video_unlisted_badge">Unlisted</string>
+    <string name="video_open_in_browser">Open in browser</string>
+    <string name="video_expand">Expand</string>
+    <string name="video_collapse">Collapse</string>
+    <string name="comments_tab_intro">Description</string>
+    <string name="comments_intro_empty">No description</string>
+
+    <string name="history_title">History</string>
+    <string name="history_clear">Clear</string>
+    <string name="history_empty">No watch history</string>
+    <string name="history_empty_subtitle">Videos you watch will appear here</string>
+
+    <string name="fullscreen_speed_boosting">Boosting</string>
+    <string name="fullscreen_brightness">Brightness</string>
+    <string name="fullscreen_volume">Volume</string>
+    <string name="fullscreen_lock">Lock</string>
+    <string name="fullscreen_unlock">Unlock</string>
+
+    <string name="language_title">Language</string>
+    <string name="language_system">System default</string>
+    <string name="language_zh">简体中文</string>
+    <string name="language_en">English</string>
+    <string name="language_ja">日本語</string>
+    <string name="language_ko">한국어</string>
+
+    <string name="sort_recommended">Discover</string>
+    <string name="sort_date">Latest</string>
+    <string name="sort_trending">Hot</string>
+    <string name="sort_popularity">Top</string>
+
+    <string name="search_sort_relevance">Relevance</string>
+    <string name="search_sort_date">Newest</string>
+    <string name="search_sort_views">Views</string>
+    <string name="search_sort_likes">Likes</string>
+
+    <string name="rating_all">All</string>
+    <string name="rating_general">All ages</string>
+    <string name="rating_ecchi">Ecchi</string>
+
+    <string name="quality_auto">Auto</string>
+    <string name="quality_source">Source</string>
+    <string name="quality_1080p">1080P</string>
+    <string name="quality_720p">720P</string>
+    <string name="quality_540p">540P</string>
+    <string name="quality_360p">360P</string>
+    <string name="quality_preview">Preview</string>
+
+    <string name="video_untitled">Untitled</string>
+
+    <string name="error_comments_load_failed">Couldn’t load comments</string>
+    <string name="error_replies_load_failed">Couldn’t load replies</string>
+    <string name="error_network_generic">Network request failed. Try again later.</string>
+    <string name="error_playback_resolve_failed">Couldn’t resolve the playback URL</string>
+    <string name="error_profile_load_failed">Couldn’t load profile</string>
+    <string name="error_user_search_failed">User search failed</string>
+    <string name="error_video_load_failed">Couldn’t load video</string>
+
+    <string name="playback_error_network">Network connection failed. Check your proxy or network and try again.</string>
+    <string name="playback_error_url_invalid">The video URL has expired or access was denied. Please try again.</string>
+    <string name="playback_error_decode_unsupported">This device can’t decode this video</string>
+    <string name="playback_error_with_reason">Playback failed: %1$s</string>
+    <string name="playback_error_generic">Playback failed. Please try again.</string>
+
+    <string name="error_no_browser">No browser available</string>
+    <string name="error_no_share_app">No app available for sharing</string>
+    <string name="share_chooser_title">Share video</string>
+    <string name="share_text_template">%1$s\n%2$s\n— From IwaRok</string>
+    <string name="error_external_embed">This work is an external embed (e.g. YouTube) and can’t be played in the app. Open it in a browser.</string>
+    <string name="error_no_playable">This work has no playable video (it may be an image work). Open it in a browser.</string>
+    <string name="error_private_content">This content is private or restricted and can’t be accessed right now.</string>
+    <string name="error_not_found">This content doesn’t exist or has been deleted.</string>
+    <string name="error_captcha">The request was blocked by human verification. Try again later or switch networks.</string>
+</resources>

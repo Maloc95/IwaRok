@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#0A0A0B</color>
+    <color name="icon_bg">#0A0A0B</color>
+    <color name="accent">#D4BE98</color>
+
+    <!-- Obsidian x Champagne brand palette (mirrors ui/theme/Theme.kt). -->
+    <color name="brand_pink">#D4BE98</color>
+    <color name="brand_violet">#A88B60</color>
+    <color name="brand_pink_soft">#E7DCC8</color>
+    <color name="brand_violet_soft">#C6AE85</color>
+    <color name="video_bg">#000000</color>
+    <color name="flow_surface">#111113</color>
+    <color name="flow_surface_elevated">#18181B</color>
+    <color name="flow_text_primary">#F3F0E9</color>
+    <color name="flow_text_secondary">#A19E96</color>
+    <color name="flow_text_tertiary">#6F6D68</color>
+</resources>

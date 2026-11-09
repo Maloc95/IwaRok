@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IwaRok</string>
+    <string name="app_slogan">몰입감 있는 Iwara 동영상 피드</string>
+    <string name="splash_loading">세션을 복원하는 중…</string>
+
+    <string name="back">뒤로</string>
+    <string name="close">닫기</string>
+    <string name="cancel">취소</string>
+    <string name="confirm">확인</string>
+    <string name="refresh">새로고침</string>
+    <string name="retry">다시 시도</string>
+    <string name="loading">불러오는 중…</string>
+    <string name="error_generic">오류가 발생했어요</string>
+    <string name="unknown_error">작업에 실패했어요. 잠시 후 다시 시도해 주세요.</string>
+    <string name="go_login">로그인하기</string>
+    <string name="cd_brand_logo">IwaRok 로고</string>
+    <string name="cd_avatar">프로필 사진</string>
+
+    <string name="age_gate_title">IwaRok에 오신 것을 환영해요</string>
+    <string name="age_gate_card_title">18+ 콘텐츠 안내</string>
+    <string name="age_gate_warning">이 앱에는 성인 콘텐츠가 포함될 수 있으며, 만 18세 이상 사용자만 이용할 수 있어요.</string>
+    <string name="age_gate_desc">계속하면 만 18세 이상이며 이 앱 사용에 대한 모든 책임을 감수하는 것에 동의한 것으로 간주해요. IwaRok은 비공식 클라이언트이며 Iwara 공식과는 관련이 없어요.</string>
+    <string name="age_gate_confirm">만 18세 이상이에요. 계속하기</string>
+    <string name="age_gate_decline">만 18세 미만이에요. 종료하기</string>
+    <string name="age_gate_exit_title">이용할 수 없어요</string>
+    <string name="age_gate_exit_message">이 앱은 만 18세 이상 사용자만 이용할 수 있어요. 양해해 주셔서 감사해요.</string>
+    <string name="age_gate_exit_confirm">앱 종료</string>
+    <string name="age_gate_exit_cancel">뒤로</string>
+
+    <string name="action_search">검색</string>
+    <string name="action_settings">설정</string>
+    <string name="feed_load_failed">피드를 불러오지 못했어요</string>
+    <string name="feed_load_more_failed_retry">더 불러오지 못했어요. 탭하여 다시 시도</string>
+    <string name="feed_empty_title">아직 동영상이 없어요</string>
+    <string name="feed_empty_subtitle">다른 정렬을 선택하거나 잠시 후 다시 확인해 보세요</string>
+    <string name="feed_loading_more">더 불러오는 중…</string>
+    <string name="feed_end">더 이상 없어요</string>
+
+    <string name="video_play">재생</string>
+    <string name="video_pause">일시정지</string>
+    <string name="video_mute">음소거</string>
+    <string name="video_unmute">음소거 해제</string>
+    <string name="video_muted">음소거됨</string>
+    <string name="video_sound">소리</string>
+    <string name="video_share">공유</string>
+    <string name="video_retry_switch">다른 화질로 다시 시도</string>
+    <string name="views_count">%1$s회 재생</string>
+    <string name="video_quality_badge">화질 %1$s</string>
+    <string name="playback_error_title">재생 실패</string>
+    <string name="playback_error_message">동영상 재생에 실패했어요. 네트워크를 확인한 후 다시 시도해 주세요.</string>
+    <string name="cd_like">좋아요</string>
+    <string name="cd_comment">댓글</string>
+    <string name="cd_share">공유</string>
+    <string name="cd_play">재생</string>
+    <string name="cd_pause">일시정지</string>
+    <string name="login_required_like">로그인하면 좋아요를 누를 수 있어요</string>
+    <string name="login_required_comment">로그인하면 댓글을 남길 수 있어요</string>
+    <string name="login_required_search">로그인하면 검색할 수 있어요</string>
+
+    <string name="comments_title">댓글</string>
+    <string name="comments_title_count">댓글 %1$s개</string>
+    <string name="comments_empty">아직 댓글이 없어요. 첫 댓글을 남겨 보세요</string>
+    <string name="comments_loading">댓글을 불러오는 중…</string>
+    <string name="comments_loading_more">댓글을 더 불러오는 중…</string>
+    <string name="comments_load_more">댓글 더 불러오기</string>
+    <string name="comments_load_failed">더 불러오지 못했어요. 탭하여 다시 시도</string>
+    <string name="comments_end">더 이상 댓글이 없어요</string>
+    <string name="comments_failed">댓글을 불러오지 못했어요</string>
+    <string name="comments_guest_banner">로그인하면 댓글에 참여할 수 있어요</string>
+    <string name="comments_replies">답글 %1$s개</string>
+    <string name="comment_unknown_user">익명 사용자</string>
+
+    <string name="login_title">Iwara 로그인</string>
+    <string name="login_subtitle">로그인하면 좋아요와 댓글을 남길 수 있어요. 검색과 둘러보기는 로그인이 필요 없어요.</string>
+    <string name="login_email_label">이메일</string>
+    <string name="login_password_label">비밀번호</string>
+    <string name="login_button">로그인</string>
+    <string name="login_guest_continue">게스트로 계속하기</string>
+    <string name="login_advanced">토큰으로 로그인 (고급)</string>
+    <string name="login_token_label">Refresh Token / Access Token</string>
+    <string name="login_token_button">토큰으로 로그인</string>
+    <string name="login_token_hint">비밀번호 입력 없이 로그인하고 싶을 때 사용하세요. Iwara 리프레시 토큰을 붙여넣으면 로그인할 수 있어요.</string>
+    <string name="login_error_email_empty">이메일을 입력해 주세요</string>
+    <string name="login_error_password_empty">비밀번호를 입력해 주세요</string>
+    <string name="login_error_token_empty">먼저 토큰을 붙여넣어 주세요</string>
+    <string name="login_failed">로그인 실패</string>
+    <string name="login_hide_password">비밀번호 숨기기</string>
+    <string name="login_show_password">비밀번호 표시</string>
+    <string name="login_privacy_hint">로그인 정보는 이 기기에만 저장돼요. IwaRok은 계정 정보를 업로드하지 않아요.</string>
+
+    <string name="search_title">검색</string>
+    <string name="search_hint">Iwara 동영상 검색</string>
+    <string name="search_action">검색</string>
+    <string name="search_empty_title">Iwara 동영상 둘러보기</string>
+    <string name="search_empty_subtitle">키워드를 입력하고 Enter를 누르면 좋아하는 크리에이터와 작품을 찾을 수 있어요</string>
+    <string name="search_no_result">관련 동영상을 찾지 못했어요</string>
+    <string name="search_no_result_subtitle">다른 키워드로 시도해 보세요</string>
+    <string name="search_footer_hint">게스트도 검색할 수 있어요. 로그인하면 좋아요와 댓글을 남길 수 있어요.</string>
+
+    <string name="settings_title">설정</string>
+    <string name="settings_group_account">계정</string>
+    <string name="settings_group_network">네트워크 및 프록시</string>
+    <string name="settings_group_playback">재생 및 화질</string>
+    <string name="settings_group_content">콘텐츠 설정</string>
+    <string name="settings_group_about">정보</string>
+    <string name="settings_group_notices">안내 및 고지</string>
+    <string name="settings_sort">기본 정렬</string>
+    <string name="settings_rating">콘텐츠 등급</string>
+    <string name="settings_quality">기본 재생 화질</string>
+    <string name="settings_dialog_sort_title">기본 정렬 방식</string>
+    <string name="settings_dialog_rating_title">콘텐츠 등급</string>
+    <string name="settings_dialog_quality_title">기본 재생 화질</string>
+    <string name="settings_quality_hint">자동은 720P를 우선하고 720P가 없으면 540P를 선택해요. 더 선명한 화질을 원하면 ‘원본’ 또는 1080P를, 네트워크가 느리면 540P 이하를 권장해요.</string>
+
+    <string name="settings_proxy_switch">사용자 지정 프록시 사용</string>
+    <string name="settings_proxy_switch_desc">중국 본토에서는 Iwara에 직접 접속할 수 없어요. 기기 또는 같은 네트워크에서 사용할 수 있는 HTTP 프록시를 입력하면 API, 썸네일, 동영상이 모두 해당 프록시를 통해 연결돼요. 저장 후 앱을 다시 시작해야 해요.</string>
+    <string name="settings_proxy_host">프록시 호스트</string>
+    <string name="settings_proxy_host_example">예: 127.0.0.1(이 기기) 또는 192.168.1.10</string>
+    <string name="settings_proxy_port">포트</string>
+    <string name="settings_proxy_hint">HTTP 프록시예요. 스마트폰의 Clash / Mihomo는 보통 127.0.0.1:7890을 사용해요. 프록시가 PC에 있다면 PC의 같은 네트워크 IP를 입력해 주세요. 저장 후 앱을 다시 시작해야 적용돼요.</string>
+    <string name="settings_proxy_save">프록시 설정 저장</string>
+    <string name="settings_proxy_saved">프록시 설정을 저장했어요</string>
+    <string name="settings_proxy_invalid">올바른 프록시 호스트와 포트(1~65535)를 입력해 주세요</string>
+    <string name="settings_proxy_test">연결 테스트</string>
+    <string name="settings_proxy_testing">프록시 연결을 테스트하는 중…</string>
+    <string name="settings_proxy_test_ok">프록시 연결 성공 (%1$s 소요)</string>
+    <string name="settings_proxy_test_fail">프록시 연결 실패: %1$s</string>
+    <string name="settings_proxy_restart_title">앱 재시작 필요</string>
+    <string name="settings_proxy_restart_message">프록시 설정을 저장했어요. 적용하려면 앱을 다시 시작해야 해요.</string>
+    <string name="settings_proxy_restart_now">지금 재시작</string>
+    <string name="settings_proxy_restart_later">나중에</string>
+    <string name="settings_logout">로그아웃</string>
+    <string name="settings_logout_confirm_title">로그아웃</string>
+    <string name="settings_logout_confirm_message">현재 계정에서 로그아웃할까요?</string>
+    <string name="settings_logout_done">로그아웃했어요</string>
+    <string name="settings_login_now">지금 로그인</string>
+    <string name="settings_guest_title">게스트 모드</string>
+    <string name="settings_guest_desc">로그인하면 좋아요와 댓글을 남길 수 있어요 (검색은 로그인 불필요)</string>
+    <string name="settings_version_label">버전</string>
+    <string name="settings_open_website">Iwara 공식 웹사이트 열기</string>
+    <string name="settings_clear_cache">이미지 캐시 지우기</string>
+    <string name="settings_clear_cache_done">이미지 캐시를 지웠어요</string>
+    <string name="settings_adult_title">18+ 콘텐츠 안내</string>
+    <string name="settings_adult_body">이 앱에는 성인 콘텐츠가 포함될 수 있으며 만 18세 이상만 이용할 수 있어요. 미성년자는 사용할 수 없어요.</string>
+    <string name="settings_disclaimer_title">면책 조항</string>
+    <string name="settings_disclaimer_body">이 앱은 비공식 Iwara 클라이언트이며 Iwara 공식과 아무런 관련이 없어요. 모든 동영상, 이미지, 텍스트의 저작권은 Iwara와 각 크리에이터에게 있어요. 이 앱은 재생 화면만 제공하며 콘텐츠를 저장하거나 배포하지 않아요. www.iwara.tv에 접속할 수 있는 네트워크 환경(프록시 또는 VPN 등)을 직접 준비해야 해요.</string>
+    <string name="settings_unofficial">IwaRok</string>
+    <string name="settings_footer">IwaRok</string>
+
+    <string name="cd_open_profile">작성자 프로필 보기</string>
+    <string name="cd_open_tag">태그 보기</string>
+
+    <string name="profile_title">프로필</string>
+    <string name="profile_load_failed">프로필을 불러오지 못했어요</string>
+    <string name="profile_videos_empty">이 사용자는 아직 공개 동영상이 없어요</string>
+    <string name="profile_tab_videos">동영상</string>
+    <string name="tag_results_title">#%1$s</string>
+    <string name="tag_results_empty">이 태그에는 아직 동영상이 없어요</string>
+    <string name="search_results_title">“%1$s” 검색 결과</string>
+    <string name="search_results_count">동영상 %1$s개</string>
+    <string name="search_clear">검색어 지우기</string>
+    <string name="video_detail_load_failed">동영상을 불러오지 못했어요</string>
+    <string name="grid_load_more">더 불러오기</string>
+
+    <string name="favorites_title">내 즐겨찾기</string>
+    <string name="favorites_empty">즐겨찾기한 동영상이 없어요</string>
+    <string name="favorites_empty_subtitle">동영상 오른쪽의 즐겨찾기 버튼을 누르면 여기에 저장돼요</string>
+    <string name="favorites_added">즐겨찾기에 추가했어요</string>
+    <string name="favorites_removed">즐겨찾기에서 제거했어요</string>
+    <string name="video_favorite">즐겨찾기</string>
+    <string name="video_favorited">즐겨찾기됨</string>
+    <string name="video_fullscreen">전체 화면</string>
+    <string name="video_exit_fullscreen">전체 화면 종료</string>
+    <string name="profile_expand">펼치기</string>
+    <string name="profile_collapse">접기</string>
+
+    <string name="cd_open_drawer">메뉴 열기</string>
+    <string name="fullscreen_watch">전체 화면으로 보기</string>
+
+    <string name="comments_input_hint">따뜻한 말 한마디를 남겨 주세요</string>
+    <string name="comments_send">보내기</string>
+    <string name="comments_send_failed">댓글을 보내지 못했어요</string>
+
+    <string name="comments_collapse_replies">답글 접기</string>
+    <string name="comments_expand_more_replies">답글 더 보기</string>
+    <string name="comments_replies_loading">답글을 불러오는 중…</string>
+    <string name="comments_replies_failed">답글을 불러오지 못했어요. 탭하여 다시 시도</string>
+
+    <string name="cd_follow">팔로우</string>
+    <string name="cd_unfollow">팔로우 취소</string>
+    <string name="login_required_follow">로그인하면 팔로우할 수 있어요</string>
+
+    <string name="feed_tag_all">전체</string>
+    <string name="feed_tag_dance">Dance</string>
+    <string name="feed_tag_mmd">MMD</string>
+    <string name="feed_tag_blender">Blender</string>
+    <string name="feed_tag_koikatsu">Koikatsu</string>
+    <string name="feed_tag_genshin">원신</string>
+    <string name="feed_tag_star_rail">붕괴: 스타레일</string>
+    <string name="feed_tag_vtuber">버튜버</string>
+    <string name="feed_tag_hmv">HMV</string>
+    <string name="feed_tag_empty_title">이 카테고리에는 아직 동영상이 없어요</string>
+
+    <string name="tag_channels_manage">채널 관리</string>
+    <string name="tag_channels_add_hint">Iwara 태그 slug(예: dance)를 입력해 채널 추가</string>
+    <string name="tag_channels_add_placeholder">태그 slug 입력</string>
+    <string name="tag_channels_add">추가</string>
+    <string name="tag_channels_duplicate">이미 있는 채널이에요</string>
+    <string name="tag_channels_invalid">태그가 없거나 확인에 실패했어요</string>
+    <string name="tag_channels_empty">채널이 없어요</string>
+    <string name="tag_channels_restore">기본값 복원</string>
+    <string name="tag_channels_manual_title">직접 추가</string>
+    <string name="tag_channels_manual_hint">태그 slug 입력 (예: dance)</string>
+    <string name="tag_channels_manual_add">채널 직접 추가</string>
+    <string name="tag_channels_manual_empty">태그 slug를 입력해 주세요</string>
+    <string name="tag_channels_manual_duplicate">이미 있는 채널이에요</string>
+    <string name="tag_channels_manual_invalid">태그가 없거나 추가하지 못했어요</string>
+    <string name="tag_channels_done">완료</string>
+    <string name="tag_channels_delete">채널 삭제</string>
+
+    <string name="cd_toggle_ai_site">AI 사이트 전환</string>
+    <string name="tag_channels_selected">선택한 채널</string>
+    <string name="tag_channels_suggestions">추가 가능한 채널</string>
+    <string name="search_tab_videos">동영상</string>
+    <string name="search_tab_users">사용자</string>
+    <string name="search_users_results_title">“%1$s” 사용자</string>
+    <string name="search_users_results_count">%1$s명</string>
+    <string name="search_users_loading">사용자를 검색하는 중…</string>
+    <string name="search_users_loading_more">불러오는 중…</string>
+    <string name="search_users_load_more">더 불러오기</string>
+    <string name="search_users_retry">불러오지 못했어요. 탭하여 다시 시도</string>
+    <string name="search_users_end">더 이상 사용자가 없어요</string>
+    <string name="search_users_empty_title">관련 사용자를 찾지 못했어요</string>
+    <string name="search_users_empty_subtitle">다른 키워드로 다시 시도해 보세요</string>
+    <string name="search_users_failed">사용자 검색 실패</string>
+    <string name="profile_bio_image">소개 이미지</string>
+
+    <string name="tag_channels_all">전체 태그 (%1$d)</string>
+    <string name="tag_channels_search_hint">태그 검색 (id 기준)</string>
+    <string name="tag_channels_no_match">일치하는 태그가 없어요</string>
+    <string name="tag_channels_catalog_failed">태그 목록을 불러오지 못했어요</string>
+
+    <string name="settings_group_general">일반</string>
+
+    <string name="comments_related">비슷한 동영상</string>
+
+    <string name="gesture_speed_2x">2x 배속 재생 중</string>
+    <string name="gesture_speed_locked">2x 고정됨</string>
+    <string name="gesture_menu_speed">재생 속도</string>
+    <string name="gesture_menu_clean">화면 정리</string>
+    <string name="video_download">다운로드</string>
+    <string name="download_started">다운로드 대기열에 추가했어요: %1$s</string>
+    <string name="download_failed">다운로드에 실패했어요. 잠시 후 다시 시도해 주세요.</string>
+    <string name="download_not_ready">동영상 로딩이 끝나지 않아 아직 다운로드할 수 없어요</string>
+
+    <string name="login_welcome_back">WELCOME BACK</string>
+    <string name="comments_tab_related">비슷한 동영상</string>
+    <string name="comments_related_empty">비슷한 동영상이 없어요</string>
+    <string name="video_transform_reset">원래대로</string>
+
+    <string name="speed_hint_hold_lock">아래로 밀었다 놓으면 2배속 고정</string>
+    <string name="speed_hint_release_lock">놓으면 2배속 고정</string>
+    <string name="speed_hint_hold_unlock">아래로 밀었다 놓으면 2배속 해제</string>
+    <string name="speed_hint_release_unlock">놓으면 2배속 해제</string>
+    <string name="speed_locked_toast">고정했어요. 가장자리를 길게 누르면 1배속으로 돌아가요.</string>
+    <string name="login_token_entry">토큰으로 로그인</string>
+
+    <string name="video_private_badge">비공개</string>
+    <string name="video_unavailable_badge">사용 불가</string>
+    <string name="speed_unlocked_toast">고정을 해제하고 1배속으로 돌아왔어요.</string>
+
+    <string name="video_unlisted_badge">일부 공개</string>
+    <string name="video_open_in_browser">브라우저에서 열기</string>
+    <string name="video_expand">펼치기</string>
+    <string name="video_collapse">접기</string>
+    <string name="comments_tab_intro">소개</string>
+    <string name="comments_intro_empty">소개가 없어요</string>
+
+    <string name="history_title">시청 기록</string>
+    <string name="history_clear">비우기</string>
+    <string name="history_empty">시청 기록이 없어요</string>
+    <string name="history_empty_subtitle">시청한 동영상이 여기에 표시돼요</string>
+
+    <string name="fullscreen_speed_boosting">배속 중</string>
+    <string name="fullscreen_brightness">밝기</string>
+    <string name="fullscreen_volume">볼륨</string>
+    <string name="fullscreen_lock">잠금</string>
+    <string name="fullscreen_unlock">잠금 해제</string>
+
+    <string name="language_title">언어</string>
+    <string name="language_system">시스템 설정 따르기</string>
+    <string name="language_zh">简体中文</string>
+    <string name="language_en">English</string>
+    <string name="language_ja">日本語</string>
+    <string name="language_ko">한국어</string>
+
+    <string name="sort_recommended">추천</string>
+    <string name="sort_date">최신</string>
+    <string name="sort_trending">트렌딩</string>
+    <string name="sort_popularity">인기</string>
+
+    <string name="search_sort_relevance">관련도</string>
+    <string name="search_sort_date">최신</string>
+    <string name="search_sort_views">재생수</string>
+    <string name="search_sort_likes">좋아요</string>
+
+    <string name="rating_all">전체</string>
+    <string name="rating_general">전체 연령</string>
+    <string name="rating_ecchi">Ecchi</string>
+
+    <string name="quality_auto">자동</string>
+    <string name="quality_source">원본</string>
+    <string name="quality_1080p">1080P</string>
+    <string name="quality_720p">720P</string>
+    <string name="quality_540p">540P</string>
+    <string name="quality_360p">360P</string>
+    <string name="quality_preview">미리보기</string>
+
+    <string name="video_untitled">제목 없음</string>
+
+    <string name="error_comments_load_failed">댓글을 불러오지 못했어요</string>
+    <string name="error_replies_load_failed">답글을 불러오지 못했어요</string>
+    <string name="error_network_generic">네트워크 요청에 실패했어요. 잠시 후 다시 시도해 주세요.</string>
+    <string name="error_playback_resolve_failed">재생 주소를 확인하지 못했어요</string>
+    <string name="error_profile_load_failed">프로필을 불러오지 못했어요</string>
+    <string name="error_user_search_failed">사용자 검색 실패</string>
+    <string name="error_video_load_failed">동영상을 불러오지 못했어요</string>
+
+    <string name="playback_error_network">네트워크 연결에 실패했어요. 프록시 또는 네트워크를 확인한 후 다시 시도해 주세요.</string>
+    <string name="playback_error_url_invalid">동영상 주소가 만료되었거나 접근이 거부됐어요. 다시 시도해 주세요.</string>
+    <string name="playback_error_decode_unsupported">이 기기에서는 이 동영상을 디코딩할 수 없어요</string>
+    <string name="playback_error_with_reason">재생 실패: %1$s</string>
+    <string name="playback_error_generic">재생에 실패했어요. 다시 시도해 주세요.</string>
+
+    <string name="error_no_browser">사용 가능한 브라우저가 없어요</string>
+    <string name="error_no_share_app">공유할 수 있는 앱이 없어요</string>
+    <string name="share_chooser_title">동영상 공유</string>
+    <string name="share_text_template">%1$s\n%2$s\n—— IwaRok에서</string>
+    <string name="error_external_embed">이 작품은 외부 임베드(예: YouTube)라 앱에서 재생할 수 없어요. 브라우저에서 열어 주세요.</string>
+    <string name="error_no_playable">이 작품에는 재생 가능한 동영상이 없어요(이미지 작품일 수 있어요). 브라우저에서 열어 주세요.</string>
+    <string name="error_private_content">비공개 또는 제한된 콘텐츠라 현재 접근할 수 없어요.</string>
+    <string name="error_not_found">이 콘텐츠는 존재하지 않거나 삭제되었어요.</string>
+    <string name="error_captcha">사용자 확인 요청이 차단되었어요. 잠시 후 다시 시도하거나 네트워크를 바꿔 보세요.</string>
+</resources>
